@@ -8,7 +8,7 @@ Requirements
 Select ONE Additional Feature to Add  
 [ no ] Feature 1 - Include a :hover feature
 [ no ] Feature 2 - Include at least two Internal links
-[ no ] Feature 3 - Include a list in a tabl
+[ yes ] Feature 3 - Include a list in a tabl
 [ no ] Feature 4 - Include at least two background images in a table
 -->
 
@@ -23,16 +23,44 @@ Select ONE Additional Feature to Add
       td {
         border: 1px solid;
       }
+
+      body {
+        background-color: rgb(255, 209, 168);
+      }
+
+      h1 {
+        color: rgb(255, 71, 13);
+      }
+
+      h2 {
+        color: rgb(61, 96, 252);
+      }
+
+      .Step {
+        color: rgb(252, 61, 82);
+      }
     </style>
   </head>
 
   <body>
-    <h1>Shao's Recipe Book</h1>
+    <h1>
+      Shao's Recipe Book
+      <img
+        src="https://i.etsystatic.com/23353655/r/il/8940bf/3342557547/il_fullxfull.3342557547_keft.jpg"
+        width="70"
+      />
+    </h1>
 
     <h2>Contents:</h2>
 
     <ol>
-      <li><a href="?">Recipe #1</a></li>
+      <li>
+        <a target="_blank" href="https://mykoreankitchen.com/kimchi-fried-rice/"
+          >Kimchi Fried Rice</a
+        >
+      </li>
+      <li>
+      <a target="_blank" href="https://www.thecookierookie.com/birria-tacos/">Birria Tacos</a></li>
     </ol>
 
     <h2 id="?">Recipe #1</h2>
@@ -47,7 +75,6 @@ Select ONE Additional Feature to Add
         <tr>
           <th>Ingredients</th>
           <th>Quantity</th>
-          <th></th>
         </tr>
       </thead>
       <tbody>
@@ -61,15 +88,64 @@ Select ONE Additional Feature to Add
         </tr>
         <tr>
           <td>Kimchi</td>
-          <td></td>
+          <td>Handful</td>
+        </tr>
+        <tr>
+          <td>Meat</td>
+          <td>Cup, Diced</td>
+        </tr>
+        <tr>
+          <td>
+            Veggie Variety
+            <ul>
+              <li>Carrots</li>
+              <li>Spinach</li>
+              <li>Bean Sprouts</li>
+            </ul>
+          </td>
+          <td>You decide</td>
         </tr>
       </tbody>
     </table>
 
-    <p><strong>Step 1:</strong> Do something.</p>
+    <p>
+      <strong class="Step"> Step 1:</strong> Cook the eggs and scramble them but
+      take them out just a minute befo they're fully cooked.
+    </p>
+    <img
+      src="https://assets.epicurious.com/photos/57b35f844924889253994109/master/pass/scrambled-eggs.jpg"
+      width="150"
+    />
+    <p>
+      <strong class="Step">Step 2:</strong> Put sesame oil in the pan and add
+      the day old rice. Add some water if the rice seems dry.
+    </p>
+    <p>
+      <strong class="Step">Step 3:</strong> While the rice is cooking, cut the
+      kimchi into small peices. While at it, cut the other veggies to add in at
+      the same time.
+    </p>
+    <p>
+      <strong class="Step">Step 4:</strong> Add in the kimchi peices with some
+      of the juice and the other veggies
+    </p>
+    <p>
+      <strong class="Step">Step 5:</strong> Add in the eggs and finish mixing
+      everything in
+    </p>
+    <p><strong class="Step">Step 6:</strong> Ready to serve!</p>
+    <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgtt1y3iQ6-SPGaTHBXxM4Do2LsblSGyJ3_Q&s"
+      width="150"
+    />
 
     <p>
-      <em>Source: <a href="?">Some recipes websites</a></em>
+      <em
+        >Source:
+        <a href="?"
+          >Some recipes websites</a
+        >
+      </em>
     </p>
   </body>
 </html>
